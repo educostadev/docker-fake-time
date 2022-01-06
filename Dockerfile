@@ -8,6 +8,7 @@ ENV LD_PRELOAD=/home/app/libfaketime.so.1
 # See https://github.com/wolfcw/libfaketime
 ENV FAKETIME="@2022-01-01 00:00:00"
 ENV FAKETIME_DONT_RESET=1
+ENV FAKETIME_DONT_FAKE_MONOTONIC=1
 
 EXPOSE 5454
 
